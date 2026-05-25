@@ -34,6 +34,10 @@
               Login
             </button>
           </form>
+
+          <div class="alert alert-danger py-2 mt-3" *ngIf="errorMessage">
+            {{ errorMessage }}
+          </div>
         </div>
       </div>
     </div>
